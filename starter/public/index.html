@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CSSI Mini Project 2</title>
+    <title>Pun-Generator</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
@@ -16,6 +16,34 @@
     <script defer src="js/main.js"></script>
   </head>
   <body>
-    <h1 class="title has-text-centered">You Cool App!</h1>
+    <h1 class="title has-text-centered">Pun-Generator</h1>
+    <p class="subtitle has-text-centered">
+        ur local internet dad
+    </p>
+    <img class = "center" src="https://filmdaily.co/wp-content/uploads/2021/04/drphill-lede-1-1300x731.jpg"> 
+    <div id="enterPun" class="hero-body has-text-centered">
+    <div class="login">
+    <form action="javascript:void(0);">
+        <div class="field">
+            <div class="control">
+                <input class="input is-medium is-rounded" type="text" placeholder="Enter a joke" id="passcode" required />
+            </div>
+        </div>
+        <button id = "subMssg" class="button is-block is-fullwidth is-primary is-medium is-rounded">
+            Submit Pun
+        </button>
+        <div>
+        <br>
+        <button id = "viewPuns" class="button is-block is-fullwidth is-primary is-medium is-rounded">
+            View Puns
+        </button>
+        </div>
+    </form>
+    <br>
+    </div>
+    </div>
+    <div>
+        <h1 id = "output" class="subtitle has-text-centered"></h1>
+    </div>
   </body>
 </html>
